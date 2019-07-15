@@ -32,5 +32,7 @@ To help users fully creating and running an off-chain Oracle with just couple co
 3. Run `npm start` to start create/get Oracle and start listening to queries   
 
 ## Note :
-
+- A query consists of the querystring 'stockprice' and an array of parameters.
+- Choose the stock name for params from the following list e.g. AAPL to find the stock price for Apple's stocks:
+https://financialmodelingprep.com/api/v3/stock/real-time-price
 - Ensure you have enough ETH in your address for responding to queries
