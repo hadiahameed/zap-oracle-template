@@ -25,8 +25,10 @@ To help users fully creating and running an off-chain Oracle with just couple co
 
 ### Usage :
 
-1. Configure Config.ts
+1. Configure Config.ts. Add your MetaMask `mnemonic` in the json file.
 2. Implement function `getResponse` in Responder.ts
+4. Run `yarn` in the terminal.
+5. Run `npm run build`
 3. Run `npm start` to start create/get Oracle and start listening to queries   
 
 ## Note :
