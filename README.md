@@ -21,6 +21,9 @@ API used: https://financialmodelingprep.com/api/v3/stock/real-time-price
 
 ## Querying an oracle:
 
++ Follow instructions for running zap-term 
+[zap-term]: https://github.com/hadiahameed/zap-term
+
 ## ORACLE TEMPLATE SETUP EXPLAINED
 
 ### Config Setting :
