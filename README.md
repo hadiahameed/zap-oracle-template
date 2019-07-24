@@ -1,8 +1,26 @@
-# Zap-oracle-template
+# Zap-oracle-template-stockprice
 
 
 ## Purpose :
-To help users fully creating and running an off-chain Oracle with just couple config and 1 function implementation.
+This oracle allows users to know the current stock price for different stocks such as:
++ Apple (AAPL)
++ Facebook (FB)
++ General Electric (GE)
++ Twitter Inc. (TWTR)
+
+and so on.
+
+API used: https://financialmodelingprep.com/api/v3/stock/real-time-price
+
+
+## Running an oracle:
+1. Run `yarn` in the project directory.
+2. In the Oracle/Config.json, add your MetaMask mnemonic on line 6.
+2. Run `npm run build`.
+3. Run `npm run start`
+
+## Querying an oracle:
+
 ## ORACLE TEMPLATE SETUP EXPLAINED
 
 ### Config Setting :
